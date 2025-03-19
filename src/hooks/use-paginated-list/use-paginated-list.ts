@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useFetchData } from '../use-fetch/use-fetch-data.ts';
+import { useFetchData } from '../use-fetch-data/use-fetch-data.ts';
 
 type SortingOrder = 'asc' | 'desc';
 
