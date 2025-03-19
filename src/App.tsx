@@ -42,7 +42,7 @@ function App() {
             { status === 'loading' && <p>Loading...</p> }
             { status === 'error' && <p>Error loading data.</p> }
             { data?.items.map((item) => (
-                <article key={ item.id }>
+                <article key={ item.id } className='post'>
                     <div>User ID: { item.userId }</div>
                     <h3>{ item.title }</h3>
                     <p>{ item.body }</p>

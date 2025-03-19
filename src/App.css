@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+.post {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
 .pagination-container button,
 .sorting-container button {
   margin: 5px;
