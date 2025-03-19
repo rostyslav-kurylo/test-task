@@ -4,3 +4,12 @@
   padding: 2rem;
   text-align: center;
 }
+
+.pagination-container button,
+.sorting-container button {
+  margin: 5px;
+}
+
+.active-button {
+  border: 3px solid;
+}
